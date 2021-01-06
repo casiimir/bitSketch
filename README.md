@@ -16,11 +16,11 @@ Who never had an 'Etch a sketch' as a child? Drawing our houses and magnificent 
 
 My goal was to write the app entirely in javascript, without any framework. That part is done. Nevertheless, I decided the project is not complete yet. I am actually working on it daily adding code and functionalities.
 
-<img align="right" src="./project/abstract-wow.jpg" width="500">
+
 
 ### Additional Resources/Info
 I want to implement:
-
+<img align="right" src="./project/abstract-wow.jpg" width="500">
 - ✔️ A mirror functionality that clone an half part of the container, and render the same in the second half
 - ✔️ a pick color tool
 - ✔️ a better, and more customable, grid system
