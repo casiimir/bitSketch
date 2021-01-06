@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@keyframes rotateImg {
+  0% {transform: rotate(0);}
+  50% {transform: rotate(30deg);}  
+  100% {transform: rotate(0);}
+}
+
+* {
+  /* Remove the draggable elements for the divs (desktop) */
+  user-select: none;
+  font-family: 'VT323', monospace;
+  font-size: 1em;
+}
+
+body, html {
+  /* Fixing the layout useful for block any sroll in the page (mobile) */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  background-image: linear-gradient(315deg, #d1c3d3, #f3f3f3 94%);
+  /* Remove the double tap zoom (mobile) */
+  /* touch-action: manipulation; */
+  touch-action: pan-x pan-y pinch-zoom;
+}
+
+.tester{
+  border: 2px solid red;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+footer {
+  margin-top: 25px;
+}
+
+img {
+  width: 21px;
+}
+
+img:hover {
+  animation-name: rotateImg;
+  animation-duration: 0.5s;
+}
+
+input::-webkit-color-swatch {
+  border: none;
+}
+
+li {
+  display: inline-block;
+  margin: 2.5px;
+}
+
+ul {
+  padding: 0;
+}
+
+.canvas {
+  background: linear-gradient(to top left, rgb(233, 233, 233), #ffffff00);
+  height: 256px;
+  width: 256px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.square {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  /* Resize if present the the borders */
+  box-sizing: border-box;
+}
+
+.square-grid {  
+  border: 1px solid #63737321;
+}
+
+.btn-color {
+  width: 25px;
+  height: 25px;
+  margin-top: -4px;
+  box-shadow: 0 0 5px 2px rgb(216, 216, 216);
+  opacity: 0.01;
+  cursor: pointer;
+} 
+
+/* Tools */
+.grids-list {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+
+.tools-list {
+  margin: 0;
+  text-align: center;
+}
+
+/* Tools and buttons */
+.btn {  
+  border: 0;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+.btn:active {
+  background-color: #ff9a76;
+}
+
+.btn-select-grid {
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.btn-select-grid:hover {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  transform: scale(1.2) !important;
+}
+
+.btn-take-screen {
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+
+.btn-take-screen:hover {
+  background-color: rgba(0, 0, 0, 0.205);
+  color: white;
+  transform: scale(1.2) !important;
+}
+
+.color-label {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  margin-left: 9px;
+}
+
+/* Palette */
+.palette {  
+  text-align: center;
+}
+
+.palette:nth-of-type(4) {
+  margin-top: 25px;
+}
+
+.palette-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+}
+
+.palette-item:focus {
+  outline: none;
+  transform: scale(0.8,0.8);
+}
+
+/* Colors one per one */
+.c-1 {
+  background-color: #0d2b45;
+}.c-2 {
+  background-color: #203c56;
+}.c-3 {
+  background-color: #544e68;
+}.c-4 {
+  background-color: #8d697a;
+}.c-5 {
+  background-color: #d08159;
+}.c-6 {
+  background-color: #ffaa5e;
+}.c-7 {
+  background-color: #ffd4a3;
+}.c-8 {
+  background-color: #ffecd6;
+}.c-9 {
+  background-color: #460198;
+}.c-10 {
+  background-color: #6a1794;
+}.c-11 {
+  background-color: #9e20b8;
+}.c-12 {
+  background-color: #c03b94;
+}.c-13 {
+  background-color: #ff88a9;
+}.c-14 {
+  background-color: #ffe0dc;
+}.c-15 {
+  background-color: #ffd4a3;
+}.c-16 {
+  background-color: #ffecd6;
+}
