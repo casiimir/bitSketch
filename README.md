@@ -3,6 +3,7 @@
 <p align="center">
   <img src="./project/monnalisa.jpg" width="600">
 </p>
+
 ### Description
 Let’s talk about something fun and awkward, something that allow us to improve the artist inside all of us: drawing abstract pixel-art!
 
@@ -10,6 +11,8 @@ I appreciate abstract art, apparent meaningless patterns able to transmit differ
 
 Let's create your next profile image, just as I did...
   
+
+
 ### Background
 Who never had an 'Etch a sketch' as a child? Drawing our houses and magnificent dwarf trees? I often enjoyed drawing planets and spaceships... This project was born in order to bring that artistic child that still lives inside of us to the surface.
 
