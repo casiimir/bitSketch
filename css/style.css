@@ -29,10 +29,6 @@ body, html {
   touch-action: pan-x pan-y pinch-zoom;
 }
 
-.tester{
-  border: 2px solid red;
-}
-
 body {
   overflow: hidden;
   height: 100vh;
@@ -69,14 +65,16 @@ strong {
   padding: 0 5px;
 }
 
+.container {
+  width: 256px;  
+  height: 256px;  
+  margin: 0 auto;
+  box-shadow: 2px 5px 5px 0.8px rgba(0,0,0,0.35);
+}
+
 .canvas {
   background: linear-gradient(to top left, rgb(233, 233, 233), #ffffff00);
-  height: 256px;
-  width: 256px;
-  margin: 0 auto;
-  overflow: hidden;  
-  box-shadow: 2px 5px 5px 0.8px rgba(0,0,0,0.35);
-  border-radius: 5px;
+  overflow: hidden;   
 }
 
 .square {
