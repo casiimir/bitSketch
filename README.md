@@ -1,9 +1,8 @@
 # bitSketch
 #### An open source project: a retro style drawing app, to improve the little artist inside us!
 
-<p align="right">
-  <img src="./project/monnalisa.jpg" width="400">
-</p>
+### Description
+<img align="right"  width="500" src="./project/monnalisa.jpg">
 
 Let’s talk about something fun and awkward, something that allow us to improve the artist inside all of us: drawing abstract pixel-art!
 I appreciate abstract art, apparent meaningless patterns able to transmit different emotions based on different states of mind. BitSketch helps to make precisely this form of art, with a digital retro touch!
@@ -14,7 +13,7 @@ Who never had an 'Etch a sketch' as a child? Drawing our houses and magnificent 
 My goal was to write the app entirely in javascript, without any framework. That part is done. Nevertheless, I decided the project is not complete yet. I am actually working on it daily adding code and functionalities.
 
 
-<img align="right" src="./project/abstract-wow.jpg" width="500">
+<img align="left" src="./project/abstract-wow.jpg" width="500">
 
 ### Additional Resources/Info
 I want to implement:
