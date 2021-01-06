@@ -15,12 +15,11 @@ Let's create your next profile image, just as I did...
 Who never had an 'Etch a sketch' as a child? Drawing our houses and magnificent dwarf trees? I often enjoyed drawing planets and spaceships... This project was born in order to bring that artistic child that still lives inside of us to the surface.
 
 My goal was to write the app entirely in javascript, without any framework. That part is done. Nevertheless, I decided the project is not complete yet. I am actually working on it daily adding code and functionalities.
-
-
+<hr>
 
 ### Additional Resources/Info
 I want to implement:
-<img align="right" src="./project/abstract-wow.jpg" width="500">
+<img align="right" src="./project/abstract-wow.jpg" width="450">
 - ✔️ A mirror functionality that clone an half part of the container, and render the same in the second half
 - ✔️ a pick color tool
 - ✔️ a better, and more customable, grid system
