@@ -28,6 +28,14 @@ function init () {
 let dimGrid = 256, dimSquare = 32;
 const mainContainer = document.querySelector('.canvas');
 
+const bitSketchLogo = document.querySelector('strong');
+setInterval(() => {
+  let RED = 100 + Math.floor(Math.random() * 100);
+  let GREEN = 20 + Math.floor(Math.random() * 1);
+  let BLUE = 150 + Math.floor(Math.random() * 50);
+  bitSketchLogo.style.color = `rgb(${RED} ${GREEN} ${BLUE})`;
+}, 5000);
+
 const buttonPencil = document.querySelector('.btn-pencil');
 buttonPencil.addEventListener('click', () => pencilTool());
 
