@@ -8,7 +8,7 @@
 ### Description
 Let’s talk about something fun and awkward, something that allow us to improve the artist inside all of us: drawing abstract pixel-art!
 I appreciate abstract art, apparent meaningless patterns able to transmit different emotions based on different states of mind. BitSketch helps to make precisely this form of art, with a digital retro touch!
-Let's create your next profile image, just as I did...
+Let's create your next profile image, just as I did ...
 <hr>
 
 ### Background
