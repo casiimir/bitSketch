@@ -73,7 +73,7 @@ function putSelectedPaletteColorIntoGeneralColor (color) {
 function pencilTool () {
   let color = elementDOM.colorPicker.style.backgroundColor;
   // Set the first color as white
-  if(!color) color = 'white';
+  if(!color) color = '#aaf0d1';
   putSelectedPaletteColorIntoGeneralColor(color);
   changeColorOnClickForEachSingle('.square', color, true);
 
