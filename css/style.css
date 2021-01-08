@@ -11,8 +11,6 @@
   user-select: none;
   font-family: 'VT323', monospace;
   font-size: 1em;
-  margin. 0;
-  padding: 0;
 }
 
 body, html {
@@ -30,8 +28,8 @@ body, html {
 }
 
 body {
-  overflow: hidden;
-  height: 100vh;
+  overflow-y: auto;
+  min-height: 100vh;
 }
 
 footer {
@@ -223,4 +221,24 @@ strong {
   background-color: #ffd4a3;
 }.c-16 {
   background-color: #ffecd6;
+}
+
+/* Iphone 5 */
+@media (max-height: 568px) {
+  img {
+    width: 16px;
+  }
+}
+
+/* Iphone 6/7/8 */
+@media (max-height: 676px) {
+  .grids-list {
+    margin-top: 5px;
+  }
+  footer {
+    margin-top: 5px;
+  }
+  .palette:nth-of-type(4) {
+    margin-top: 5px;
+  }
 }
