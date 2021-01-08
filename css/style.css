@@ -21,7 +21,7 @@ body, html {
   right: 0;
   margin: auto;
   padding: 0;
-  background-image: linear-gradient(315deg, #d1c3d3, #f3f3f3 94%);
+  background: linear-gradient(0deg, rgba(170,240,209,1) 0%, rgba(80,191,230,1) 100%);
   /* Remove the double tap zoom (mobile) */
   /* touch-action: manipulation; */
   touch-action: pan-x pan-y pinch-zoom;
@@ -71,7 +71,7 @@ strong {
 }
 
 .canvas {
-  background: linear-gradient(to top left, rgb(233, 233, 233), #ffffff00);
+  background: linear-gradient(to top left, rgb(233, 233, 233), rgb(255, 255, 255));
   overflow: hidden;   
 }
 
@@ -119,11 +119,12 @@ strong {
   border: 1px solid rgba(0, 0, 0, 0.11);  
   box-shadow: 1px 2.5px 5px 0.4px rgba(0,0,0,0.35);
   border-radius: 5px;
+  background-color: #62A6BF;
+  color: white;
 }
 
 .btn-select-grid:hover {
   background-color: rgba(0, 0, 0, 0.651);
-  color: white;
   transform: scale(1.2) !important;
 }
 
