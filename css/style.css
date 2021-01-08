@@ -233,12 +233,12 @@ strong {
 /* Iphone 6/7/8 */
 @media (max-height: 676px) {
   .grids-list {
-    margin-top: 5px;
+    margin-top: 3px;
   }
   footer {
-    margin-top: 5px;
+    margin-top: 3px;
   }
   .palette:nth-of-type(4) {
-    margin-top: 5px;
+    margin-top: -5px;
   }
 }
