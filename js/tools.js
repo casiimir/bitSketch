@@ -111,11 +111,17 @@ function fillTool () {
   changeColorOnClickForEachSingle('.square', color, false);
 }
 
+// Html2Canvas lib.
 function screenshootTool () {
-  const fileName = prompt("File name: ");
+  let fileName = prompt("File name: ");
+  
+  if (!fileName) {
+    fileName = 'my_bitSketch'
+  }
+
   html2canvas(elementDOM.canvas)
   .then(canvas => {
-    let link = document.createElement('a');
+    link = document.createElement('a');
     link.download = `${fileName}.png`;
     link.href = canvas.toDataURL();
     link.click();
