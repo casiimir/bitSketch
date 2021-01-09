@@ -2,7 +2,7 @@
 #### An open source project: a retro style drawing app, to improve the little artist inside us!
 
 <p align="center">
-<img width="500" src="./project/monnalisa.jpg">
+<img width="500" src="./project/iphone-monalisa.jpeg">
 </p>
 
 ### Description
