@@ -64,10 +64,11 @@ strong {
 }
 
 .container {
-  width: 256px;  
-  height: 256px;  
+  width: 256px;
+  height: 256px;
   margin: 0 auto;
   box-shadow: 2px 5px 5px 0.8px rgba(0,0,0,0.35);
+  overflow: hidden;
 }
 
 .canvas {
@@ -126,6 +127,14 @@ strong {
 .btn-select-grid:hover {
   background-color: rgba(0, 0, 0, 0.651);
   transform: scale(1.2) !important;
+}
+
+.item-first {
+  display: inline;
+}
+
+.item-four {
+  display: inline;
 }
 
 .btn-take-screen {
@@ -241,5 +250,18 @@ strong {
   }
   .palette:nth-of-type(4) {
     margin-top: -5px;
+  }
+  .item-first {
+    display: none;
+  }
+}
+
+@media (min-width: 690px) {
+  .container {
+      width: 672px;
+      height: 61.5%;
+  }
+  .item-four {
+    display: none;
   }
 }
