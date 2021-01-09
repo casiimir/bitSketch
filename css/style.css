@@ -259,7 +259,7 @@ strong {
 @media (min-width: 690px) {
   .container {
       width: 672px;
-      height: 61.5%;
+      height: 52.7vh;
   }
   .item-four {
     display: none;
