@@ -72,7 +72,7 @@ strong {
 }
 
 .canvas {
-  background: linear-gradient(to top left, rgb(233, 233, 233), rgb(255, 255, 255));
+  background: linear-gradient(130deg, #ffffffb6 0%, #fff7f4ab 100%);
   overflow: hidden;   
 }
 
@@ -147,14 +147,14 @@ strong {
 }
 
 .btn-take-screen:hover{
-  background-color: rgba(0, 0, 0, 0.205);  
+  background-color: #ff9a76;  
   color: white;
   transform: scale(1.2) !important;
 }
 
 .btn-take-screen:active {  
   background-color: rgba(0, 0, 0, 0.205); 
-  background-color: #ff9a76; 
+  background-color: #ffbe99; 
 }
 
 .btn-color {
