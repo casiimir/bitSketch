@@ -77,9 +77,9 @@ function pencilTool () {
   putSelectedPaletteColorIntoGeneralColor(color);
   changeColorOnClickForEachSingle('.square', color, true);
 
-  elementDOM.colorPicker.addEventListener('input', (e) => {
-    elementDOM.colorPicker.style.backgroundColor = color;
+  elementDOM.colorPicker.addEventListener('change', (e) => {
     color = e.target.value;
+    elementDOM.colorPicker.style.backgroundColor = color;    
     changeColorOnClickForEachSingle('.square', color, true);
     putFocusButtonIn('.btn-pencil');
     clickAndDrag(color);
@@ -121,7 +121,7 @@ function screenshootTool () {
 
   html2canvas(elementDOM.canvas)
   .then(canvas => {
-    link = document.createElement('a');
+    let link = document.createElement('a');
     link.download = `${fileName}.png`;
     link.href = canvas.toDataURL();
     link.click();
@@ -133,7 +133,7 @@ const isMobile = /Iphone|iPad|iPod|Android|BlackBerry|IEMobile/i.test(window.nav
 const elementDOM = {
   paletteBtn: document.querySelectorAll('.palette-item'),
   colorPicker: document.querySelector('.color-label'),
-  canvas: document.querySelector('.canvas'),
+  canvas: document.querySelector('.container'),
 }
 
 export { pencilTool, rubberTool, clearTool, showGridTool, fillTool, screenshootTool };

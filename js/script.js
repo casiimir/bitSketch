@@ -1,12 +1,26 @@
 import { pencilTool, rubberTool, clearTool, showGridTool, fillTool, screenshootTool } from "./tools.js";
 
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+}
+
 function setCanvas (dimSquare) {
-  const numOfSquares = ((dimGrid/dimSquare)**2);
+  const numOfSquares = (((dimGrid/dimSquare)**2)*7);
   for (let x = 1; x <= numOfSquares; x++) {
     const newDiv = document.createElement('div');
     newDiv.classList.add('square');
     mainContainer.appendChild(newDiv);
   }
+  console.log(dimSquare);
+  console.log(dimGrid);
+  console.log(numOfSquares);
+
 }
 
 function setSquares (dimSquare) {
@@ -73,5 +87,12 @@ buttonSelectGrid.forEach(button => {
     }
   })
 });
+
+// Full Screen option, only desktop!
+document.addEventListener("keypress", function(e) {
+  if (e.key === 'Enter') {
+    toggleFullScreen();
+  }
+}, false);
 
 init();
