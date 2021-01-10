@@ -17,10 +17,6 @@ function setCanvas (dimSquare) {
     newDiv.classList.add('square');
     mainContainer.appendChild(newDiv);
   }
-  console.log(dimSquare);
-  console.log(dimGrid);
-  console.log(numOfSquares);
-
 }
 
 function setSquares (dimSquare) {
